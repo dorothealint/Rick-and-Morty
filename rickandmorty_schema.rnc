@@ -1,0 +1,16 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = script
+script = element script {title, description, body}
+title = element title {text}
+description = element description {season, episode, airdate*}
+season = element season {text, xsd:integer}
+episode = element episode {text, xsd:integer}
+airdate = element airdate {xsd:date}
+body = element body {speech, direction}
+speech = element speech {designation, character?, guestStar?, text, burp*, catchPhrase*} # drl This will change, I'm just brainstorming what might go under the element
+designation = attribute designation {"main" | "extra"}
+character = attribute character {"rick" | "morty" | "summer" | "beth" | "jerry" | "other"}
+guestStar = attribute guestStar {text}
+burp = element burp {text}
+catchphrase = element catchPhrase {text}
