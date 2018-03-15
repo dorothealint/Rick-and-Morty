@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ex Machina</title>
+            <author>Original author</author>
+            <editor>Dorothea Lint</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Digital edition hosted on <ref target="http://rickandmorty.newtfire.org"
+                  >http://rickandmorty.newtfire.org</ref> and GitHub: <ref
+                  target="https://github.com/dorothealint/Rick-and-Morty"
+                  >https://github.com/dorothealint/Rick-and-Morty</ref>
+            </p>
+         </publicationStmt>
+         <sourceDesc>
+            <p><!--ebb 2018-03-15: What are the origin(s) of this? LOOK UP IN TEI GUIDELINES HOW TO FLESH THIS OUT. Perhaps you want <bibl> </bibl> elements here instead of <p> elements?-->
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <p><!--Write something describing how you altered the source text with this encoding of it--></p>
+      </encodingDesc>
+      <profileDesc>
+         <settingDesc>
+            <setting/>
+         </settingDesc>
+
+         <abstract>
+            <p>A short script that references a movie: <bibl><title level="m">Ex
+                     Machina</title><date when="2014"/></bibl></p>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change/>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <sp who="morty">
+            <speaker>Morty</speaker>
+            <stage>to <persName ref="jennifer">Jennifer</persName></stage>
+            <p>Um where's Rick?</p>
+         </sp>
+         <sp who="rick">
+            <speaker>Rick</speaker>
+            <p>I told you, you’re wasting your time talking to <rs type="person" ref="#jessica"
+                  >her</rs>. However, you would not be (burp) wasting your time dancing with
+               her.</p>
+         </sp>
+      </body>
+   </text>
+</TEI>
