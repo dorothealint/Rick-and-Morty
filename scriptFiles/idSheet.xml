@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- afh: Please double check the accuracy of the below information! I'm going off of what the wikia has listed, but many of the articles seem convoluded and / or perhaps incorrect. -->
+<idSheet>
+    <listPerson type="main">
+        <person xml:id="rick">
+            <persName>Rick Sanchez</persName>
+            <persName>
+                <surname>Sanchez</surname>
+                <forename>Rick</forename>
+                <alias>Grandpa</alias>
+                <alias>Dad</alias>
+                <alias>Grandpa Rick</alias>
+                <residence dimension="C-132"/>
+                <age n="70"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="morty">Morty</person>
+            <persName>
+                <surname>Smith</surname>
+                <forename>Morty</forename>
+                <residence dimension="C-132"/>
+                <age n="14"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="summer">Summer</person>
+            <persName>
+                <surname>Smith</surname>
+                <forename>Summer</forename>
+                <residence dimension="C-132"/>
+                <age n="17"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="jerry">Jerry</person>
+            <persName>
+                <surname>Smith</surname>
+                <forename>Jerry</forename>
+                <residence dimension="C-132"/>
+                <age n="34"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="beth">Beth</person>
+            <persName>
+                <surname>Smith</surname>
+                <forename>Beth</forename>
+                <residence dimension="C-132"/>
+                <age n="34"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+    </listPerson>
+
+    <listPerson type="secondary">
+        <person>
+            <person xml:id="jessica">Jessica</person>
+            <persName>
+                <forename>Jessica</forename>
+                <residence dimension="C-132"/>
+                <age n="14"/>
+                <status type="alive"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="squanchy">Squanchy</person>
+            <persName>
+                <forename>Squanchy</forename>
+                <residence dimension="C-132"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="birdPerson">Birdperson</person>
+            <persName>
+                <forename>Birdperson</forename>
+                <alias>Phoenixperson</alias>
+                <residence dimension="C-132"/>
+            </persName>
+        </person>
+    </listPerson>
+
+    <listPerson type="interdimensional">
+        <person>
+            <person xml:id="evilMorty">Evil Morty</person>
+            <persName>
+                <forename>Morty</forename>
+                <residence dimension="C-132"/>
+                <residence dimension="unknown"/>
+            </persName>
+        </person>
+        <person>
+            <person xml:id="evilRick">Evil Rick</person>
+            <persName>
+                <forename>Rick</forename>
+                <residence dimension="C-132"/>
+                <residence dimension="unknown"/>
+            </persName>
+        </person>
+    </listPerson>
+
+    <listPerson type="authors">
+        <person xml:id="roiland">
+            <persName>
+                <surname>Roiland</surname>
+                <forename>Justin</forename>
+            </persName>
+            <p>Justin Roiland is a writer, animator, director, producer, and the co-creator of Rick
+                and Morty as well as the voices of Rick and Morty.</p>
+        </person>
+        <person xml:id="ridley">
+            <persName>
+                <surname>Ridley</surname>
+                <forename>Ryan</forename>
+            </persName>
+            <p>Ryan Ridley is a writer and voice actor on Rick and Morty. He served as the
+                co-producer of Season 1 and a producer of Season 2.</p>
+        </person>
+        <person xml:id="guterman">
+            <persName>
+                <surname>Guterman</surname>
+                <forename>Dan</forename>
+            </persName>
+            <p>Dan Guterman is a writer and producer for Rick and Morty.</p>
+        </person>
+    </listPerson>
+
+    <listPerson type="team">
+        <person xml:id="drl">
+            <persName>
+                <surname>Lint</surname>
+                <forename>Dorothea</forename>
+            </persName>
+        </person>
+        <person xml:id="afh">
+            <persName>
+                <surname>Hall</surname>
+                <forename>Allyson</forename>
+            </persName>
+        </person>
+    </listPerson>
+</idSheet>
