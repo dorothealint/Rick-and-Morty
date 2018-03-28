@@ -19,19 +19,30 @@ body{
     margin: auto;
     border-radius: 25px;
 }
-.flex-container{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    align-items: flex-start;
-    justify-content: center;
-}
 img.banner{
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
     height: 100%;
 }
+
+
+img.bannerIcons{
+    height: 100px;
+    width: 100px;
+     -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 img.cornerimg{
     position: fixed;
     bottom: 0px;
