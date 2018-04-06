@@ -97,3 +97,7 @@ div.license{
     border-radius: 25px;
     margin: auto;
 }
+div#timeline{
+    margin: 0 auto;
+    text-align: center;
+}
