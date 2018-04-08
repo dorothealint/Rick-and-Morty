@@ -101,3 +101,16 @@ div#timeline{
     margin: 0 auto;
     text-align: center;
 }
+.img-with-text {
+    text-align: center;
+    margin: 0 auto;
+}
+.p-for-banner{
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
