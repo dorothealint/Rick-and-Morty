@@ -30,7 +30,7 @@ img.banner{
 img.bannerIcons{
     height: 100px;
     width: 100px;
-     -webkit-transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
 }
@@ -101,16 +101,26 @@ div#timeline{
     margin: 0 auto;
     text-align: center;
 }
-.img-with-text {
+.img-with-text{
     text-align: center;
     margin: 0 auto;
+    justify-content: center
 }
 .p-for-banner{
     -webkit-transform: skew(-20deg);
     -moz-transform: skew(-20deg);
     -o-transform: skew(-20deg);
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center
 }
-.img-with-text img {
+
+p.p-for-banner:hover,
+p.p-for-banner:active{
+    color: #5ec049;
+}
+
+.img-with-text img{
     display: block;
     margin: 0 auto;
 }
