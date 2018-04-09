@@ -3,19 +3,11 @@
     <head>
         <title>Rick and Morty</title>
         <link rel="stylesheet" type="text/css" href="styling.css" />
+        <script type="text/javascript" src="bannerJS.js"></script>
     </head>
     <body>
         <img class="cornerimg" src="images/titlelogo2.png" />
-        <div id="banner">
-            <div class="flex-container">
-                <a href="index.html"><img class="banner" src="images/titlelogo.png" /></a>
-                <a href="transcripts.html"><img class="bannerIcons" src="images/box.png" /></a>
-                <img class="bannerIcons" src="images/portal.png" />
-                <img class="bannerIcons" src="images/meeseeks.png" />
-                <img class="bannerIcons" src="images/pickle.png" />
-                <img class="bannerIcons" src="images/placeholder2.png" />
-            </div>
-        </div>
+        <!--#include virtual="SSIbanner.html" -->
         <br />
         <div class="bodycontainer">
             <div class="body">
@@ -40,16 +32,6 @@
             </div>
         </div>
         <br />
-        <div class="license">
-            <span><strong>Created by: </strong>
-                <a href="https://github.com/quantum-satire">A. Hall</a> and <a
-                    href="https://github.com/dorothealint">D. Lint</a>. <a
-                    href="https://github.com/dorothealint/Rick-and-Morty">GitHub</a>. <a
-                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
-                        alt="Creative Commons License" style="border-width:0"
-                        src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a
-                    rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
-                <a href="http://newtfire.org/firebellies.html">Powered by firebellies</a>.</span>
-        </div>
+        <!--#include virtual="SSIlicense.html" -->
     </body>
 </html>
