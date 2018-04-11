@@ -124,3 +124,54 @@ p.p-for-banner:active{
     display: block;
     margin: 0 auto;
 }
+
+/**/
+
+.dropbtn{
+    background-color: #eeedea;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16pt;
+    border-radius: 25px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #eeedea;
+    min-width: 80px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 16pt;
+    border-radius: 25px;
+}
+
+.dropdown-content a{
+    padding: 7px 11px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+    font-size: 16pt;
+}
+
+.dropdown-content a:hover{
+    background-color: #d9d8d3;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown:hover .dropbtn{
+    background-color: #eeedea;
+}
