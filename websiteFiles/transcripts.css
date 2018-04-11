@@ -1,0 +1,48 @@
+.bodycontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+.flexbox{
+    height: 400px;
+    background-color:yellow;
+}
+#season-1{
+    flex-direction: column;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#season-2{
+    flex-direction: column;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#season-3{
+    flex-direction: column;
+    display: inline-block;
+    flex-wrap: wrap;
+}
+#season-1 div.box{
+    background-color: purple;
+    padding: 0px 0px 0px 8px;
+    flex-wrap: wrap;
+}
+#season-2 div.box{
+    background-color: red;
+    padding: 0px 0px 0px 8px;
+    flex-wrap: wrap;
+}
+#season-3 div.box{
+    background-color: blue;
+    padding: 0px 0px 0px 8px;
+    flex-wrap: wrap;
+}
+.transcript-viewer{
+    background-color: black;
+    padding: 5% 5% 5% 5%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #5ec049;
+}
