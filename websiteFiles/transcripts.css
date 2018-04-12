@@ -7,7 +7,11 @@
 }
 .flexbox{
     height: 400px;
-    background-color:yellow;
+    background-color:black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 #season-1{
     flex-direction: column;
@@ -25,19 +29,38 @@
     flex-wrap: wrap;
 }
 #season-1 div.box{
-    background-color: purple;
+    background: radial-gradient(limegreen, green, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
 }
 #season-2 div.box{
-    background-color: red;
+    background: radial-gradient(lavender, purple, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
 }
 #season-3 div.box{
-    background-color: blue;
+    background: radial-gradient(pink, red, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
+}
+div#s1e0{
+    background-color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px white;
+}
+div#s2e0{
+    background-color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1px white;
+}
+div#s3e0{
+    background-color: black;
+    -webkit-text-fill-color: limegreen;
+    -webkit-text-stroke: 1px limegreen;
+}
+p{
+    -webkit-text-fill-color: limegreen;
+    -webkit-text-stroke: 1px limegreen;
 }
 .transcript-viewer{
     background-color: black;
