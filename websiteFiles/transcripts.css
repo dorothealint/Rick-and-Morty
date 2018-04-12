@@ -4,9 +4,10 @@
     justify-content: space-between;
     align-items: center;
 }
+div.body.h2 {flex:1;}
 /* 2018-04-12 ebb: You had .bodycontainer in the line above, but it contains ONLY the div of class body inside, so making that flex wasn't doing anything. div.bodycontainer is the one that contains your div.flexbox and div.transcript-viewer, and as soon as I changed that you were okay! I made a few other edits with justify-content in some of your boxes (was experimenting with centering, for example). Alter those back if you like. the main issue you were trying to solve was just identifying which element contained the stuff you needed to flex.  */ 
-.flexbox{
-    height: 400px;
+.flexbox{flex:3;
+    /*height: 400px;*/
     background-color:black;
     display: flex;
     flex-direction: row;
@@ -14,19 +15,19 @@
     align-items: flex-start;
     justify-content:space-around; 
 }
-#season-1{
-    flex-direction: column;
-    /*display: inline-block;*/
-    flex-wrap: wrap; 
+#season-1{display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+   flex-wrap: wrap; 
 }
-#season-2{
-    flex-direction: column;
-    /*display: inline-block;*/
+#season-2{display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
-#season-3{
-    flex-direction: column;
-    /*display: inline-block;*/
+#season-3{display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 #season-1 div.box{
@@ -64,6 +65,7 @@ p{
     -webkit-text-stroke: 1px limegreen;
 }
 .transcript-viewer{
+    flex:3;
     background-color: black;
     padding: 5% 5% 5% 5%;
     border-width: 5px;
