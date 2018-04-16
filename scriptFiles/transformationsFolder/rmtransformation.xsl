@@ -9,18 +9,19 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    <xsl:variable name="collection" select="collection('episodes')"/> 
+    <xsl:variable name="coll" select="collection('episodes')"/> 
+    <xsl:mode on-no-match="shallow-copy"/>
     <xsl:template match="/">
         <html>
             <head>
                 <title>Transcripts</title>
             </head>
             <body>
-                <xsl:apply-templates select="$collection//body" />
+                <xsl:apply-templates select="$coll//body" />
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="$collection">
+    <xsl:template match="$coll//body">
         <br/>
         <h2>
             <xsl:apply-templates select="//head/title"/>
@@ -28,5 +29,14 @@
         <p>
             <xsl:apply-templates select="//body"/>
         </p>
+    </xsl:template>
+    <xsl:template match="speaker">
+        <strong> <xsl:apply-templates/> </strong>
+    </xsl:template>
+    <xsl:template match="sp">
+        <div class="sp"> <xsl:apply-templates/> </div>
+    </xsl:template>
+    <xsl:template match="stage">
+        <div class="stage"> <xsl:apply-templates/> </div>
     </xsl:template>
 </xsl:stylesheet>
