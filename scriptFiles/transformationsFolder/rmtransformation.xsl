@@ -9,8 +9,8 @@
     
     <xsl:output method="xhtml" encoding="utf-8" doctype-system="about:legacy-compat"
         omit-xml-declaration="yes"/>
-    <xsl:variable name="coll" select="collection('episodes')"/> 
-    <xsl:mode on-no-match="shallow-copy"/>
+    <xsl:variable name="coll" select="collection('episodes')/*"/> 
+
     <xsl:template match="/">
         <html>
             <head>
@@ -21,13 +21,13 @@
             </body>
         </html>
     </xsl:template>
-    <xsl:template match="$coll//body">
+    <xsl:template match="body">
         <br/>
         <h2>
-            <xsl:apply-templates select="//head/title"/>
+            <xsl:apply-templates select="//teiHeader/descendant::titleStmt/title"/>
         </h2>
         <p>
-            <xsl:apply-templates select="//body"/>
+            <xsl:apply-templates select="descendant::body"/>
         </p>
     </xsl:template>
     <xsl:template match="speaker">
