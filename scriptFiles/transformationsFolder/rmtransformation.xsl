@@ -31,10 +31,10 @@
         </p>
     </xsl:template>
     <xsl:template match="speaker">
-        <strong> <xsl:apply-templates/> </strong>
+        <span class="speaker"> <xsl:apply-templates/> </span>
     </xsl:template>
     <xsl:template match="sp">
-        <div class="sp"> <xsl:apply-templates/> </div>
+        <span class="sp"> <xsl:apply-templates/> </span>
     </xsl:template>
     <xsl:template match="stage">
         <div class="stage"> <xsl:apply-templates/> </div>
