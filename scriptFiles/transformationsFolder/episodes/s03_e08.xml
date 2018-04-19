@@ -236,7 +236,7 @@ It’s, like, hello, Saturn, after ten moons, time to stop naming and start numb
 
 <sp><speaker>Beth</speaker><p>:  Morty, please, don’t do this.</p></sp>
 
-<sp><speaker who="Morty">Voltamatron</speaker><p>:  Your Morty is gone! I am Voltamatron, Destroyer of Worlds!</p></sp> 
+<sp><speaker who="Voltamatron">Morty</speaker><p>:  Your Morty is gone! I am Voltamatron, Destroyer of Worlds!</p></sp> 
             
 <sp><speaker>Summer</speaker><p>:  Grandpa Rick, there must be some scientific way to save him! </p></sp>
 
@@ -504,6 +504,7 @@ Little boy! We’ll give you wishes if you can hear us! We can make you fly and 
 <sp><speaker>Jerry</speaker><p>:  As if. He was in your basket.</p></sp>
 
 <sp><speaker>Morty</speaker><p>:  He was in your car! Oh! Oof! Dibs on his stuff. Did yoof that?</p></sp>
+            <trailer><name>Inside Out</name><date>2015</date></trailer>
 
 
 </body>
