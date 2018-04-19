@@ -97,10 +97,6 @@ div.license{
     border-radius: 25px;
     margin: auto;
 }
-div#timeline{
-    margin: 0 auto;
-    text-align: center;
-}
 .img-with-text{
     text-align: center;
     margin: 0 auto;
@@ -176,4 +172,15 @@ p.p-for-banner:active{
     background-color: #eeedea;
 }
 
-div#id {}
+div#scriptstimeline {
+    float: right;
+    padding: 10px;
+}
+
+div#shortstimeline{
+    float: left;
+    padding: 10px;
+}
+
+
+
