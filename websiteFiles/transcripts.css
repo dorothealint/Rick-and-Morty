@@ -29,17 +29,17 @@ div.body.h2 {flex:1;}
     align-items: flex-start;
     flex-wrap: wrap;
 }
-#season-1 div.box{
+.season-1 div.box{
     background: radial-gradient(limegreen, green, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
 }
-#season-2 div.box{
+.season-2 div.box{
     background: radial-gradient(lavender, purple, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
 }
-#season-3 div.box{
+.season-3 div.box{
     background: radial-gradient(pink, red, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
@@ -71,3 +71,16 @@ p{
     border-style: solid;
     border-color: #5ec049;
 }
+.zoom{
+    transition: transform .2s;
+}
+.zoom:hover {
+    transform: scale(1.5);
+    }
+
+
+
+
+
+
+
