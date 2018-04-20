@@ -77,10 +77,11 @@ p{
 .zoom:hover {
     transform: scale(1.5);
     }
-
-
-
-
-
-
-
+h3{
+    font-family: 'Indie Flower', cursive;
+    color: limegreen;
+    line-height: 100%;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
+}
