@@ -18,7 +18,7 @@
             <sourceDesc>
                 <bibl>
                     <title>The Rickshank Redemption</title>
-                    <date when="2015-"/>
+                    <date when="2015"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -370,15 +370,15 @@
 
 <stage>Rick exits the machine in Cornvelious Daniel's body</stage>
             
-<sp><speaker who="Rick">Cornvelious Daniel</speaker><p>: Another day, another dollar. Am I right great insect creature or whaaat?!</p></sp>
+<sp><speaker>Cornvelious Daniel</speaker><p>: Another day, another dollar. Am I right great insect creature or whaaat?!</p></sp>
 
 <sp><speaker>Gromflomite Captain</speaker><p>: Congratulations, Agent. You'll be highly commended for this.</p></sp>
 
-<sp><speaker who="Rick">Cornvelious Daniel</speaker><p>: Always wait for permission to [burps] feel accomplishment. That's my motto.</p></sp>
+<sp><speaker>Cornvelious Daniel</speaker><p>: Always wait for permission to [burps] feel accomplishment. That's my motto.</p></sp>
 
 <sp><speaker>Gromflomite Captain</speaker><p>: One thing still perplexes me -- why would Rick Sanchez turn himself in?</p></sp>
 
-<sp><speaker who="Rick">Cornvelious Daniel</speaker><p>: Well, I'm just a dumb-ass bug, but it's possible Rick knew he'd be interrogated at this facility, where we not only keep our most wanted, but our most sensitive data. Anyone here with level-nine access could [burps] I don't know, collapse a government. I'm just gonna go take a dump. Is it cool if I use the level-nine bathroom? W-W-What's the level-nine master access code again?</p></sp>
+<sp><speaker>Cornvelious Daniel</speaker><p>: Well, I'm just a dumb-ass bug, but it's possible Rick knew he'd be interrogated at this facility, where we not only keep our most wanted, but our most sensitive data. Anyone here with level-nine access could [burps] I don't know, collapse a government. I'm just gonna go take a dump. Is it cool if I use the level-nine bathroom? W-W-What's the level-nine master access code again?</p></sp>
 
 <sp><speaker>Gromflomite Worker</speaker><p>: Oh, that's easy. 8-3--</p></sp>
 
@@ -394,21 +394,21 @@
 
 <stage>[ Grunting ]</stage>
             
-<sp><speaker who="Rick">Rick(D-99)</speaker><p>: I'm bummed I didn't get to give that insect dick a test-drive.</p></sp>
+<sp><speaker>Rick(D-99)</speaker><p>: I'm bummed I didn't get to give that insect dick a test-drive.</p></sp>
 
 <sp><speaker>Braided Rick</speaker><p>: Wait, wait, wait, wait! T-The Council of Ricks sent us. We have your Morty and Summer. They're prisoners on the Citadel.</p></sp>
 
-<sp><speaker who="Rick">Rick(D-99)</speaker><p>: Great!</p></sp>
+<sp><speaker>Rick(D-99)</speaker><p>: Great!</p></sp>
 
 <sp><speaker>Braided Rick</speaker><p>: [ Grunts ]</p></sp>
 
 <sp><speaker>Speaker system</speaker><p>: Security breach in room 6755.</p></sp>
 
-<sp><speaker who="Rick">Rick(D-99)</speaker><p>: Lovely. Not only is my plan screwed up, I also forgot how to improvise.</p></sp>
+<sp><speaker>Rick(D-99)</speaker><p>: Lovely. Not only is my plan screwed up, I also forgot how to improvise.</p></sp>
 
 <sp><speaker>Speaker system</speaker><p>: All security people approach.</p></sp>
 
-<sp><speaker who="Rick">Rick(D-99)</speaker><p>: [ Grunts ]</p></sp>
+<sp><speaker>Rick(D-99)</speaker><p>: [ Grunts ]</p></sp>
 
 <sp><speaker>Speaker system</speaker><p>: Security breach.</p></sp>
 
@@ -434,11 +434,11 @@
 
 <sp><speaker>Commander in Chief Rick</speaker><p>: La-di-da. Give me that. D-99, this is the commander in chief of the Citadel's militia.</p></sp>
 
-<sp><speaker who="Rick">Rick(D-99)</speaker><p>: Go[burps] -- good enough.</p></sp>
+<sp><speaker>Rick(D-99)</speaker><p>: Go[burps] -- good enough.</p></sp>
 
 <stage>Rick transfers his mind into Commander in Chief Rick</stage>
             
-<sp><speaker who="Rick">Commander in Chief Rick</speaker><p>: He's a spy. Blow him up. I'm gonna go take a shit.</p></sp>
+<sp><speaker>Commander in Chief Rick</speaker><p>: He's a spy. Blow him up. I'm gonna go take a shit.</p></sp>
 
 <stage>Transition to room of Council of Ricks</stage>
             
@@ -465,18 +465,18 @@
 <sp><speaker>Morty</speaker><p>: Oh, yeah? If you think my Rick's dead, he's alive. And if you think you're safe, he's coming for you!</p></sp>
 
 <sp><speaker>Council of Ricks</speaker><p>: [ All grumbling ]</p></sp>
-<sp><speaker who="Rick">Commander in Chief Rick</speaker><p>:[ Whistling ]</p></sp>
+<sp><speaker>Commander in Chief Rick</speaker><p>:[ Whistling ]</p></sp>
 
 <sp><speaker>Teleportation Worker Rick</speaker><p>: Hey, whoa, whoa! What are you doing in here? This area's for teleporting the entire Citadel to somewhere else using only buttons and dials.</p></sp>
 
-<sp><speaker who="Rick">Commander in Chief Rick</speaker><p>: Yeah, well, it's a bad idea to have it designed that way then, isn't it?</p></sp>
+<sp><speaker>Commander in Chief Rick</speaker><p>: Yeah, well, it's a bad idea to have it designed that way then, isn't it?</p></sp>
 
 <stage>[ Whirring ]
 [ Screaming ]</stage>
             
 <sp><speaker>Teleporter Worker Rick</speaker><p>: What the [bleep] We just teleported into a galactic federal prison.</p></sp>
 
-<sp><speaker who="Rick">Commander in Chief Rick</speaker><p>: I'm gonna go take a shit.</p></sp>
+<sp><speaker>Commander in Chief Rick</speaker><p>: I'm gonna go take a shit.</p></sp>
 
 <stage>[ Alarm blaring ]</stage>
             
@@ -488,19 +488,19 @@
 
 <sp><speaker>Hammerhead Morty</speaker><p>: Whoa! [ Screaming ] Whoa!</p></sp>
 
-<sp><speaker who="Rick">Quantum Rick</speaker><p>: The Citadel's been teleported to [burps] Federation space. It's doomed. This has to be C-137, you guys. What are we gonna do?! You know he's coming for us.</p></sp>
+<sp><speaker>Quantum Rick</speaker><p>: The Citadel's been teleported to [burps] Federation space. It's doomed. This has to be C-137, you guys. What are we gonna do?! You know he's coming for us.</p></sp>
 
 <sp><speaker>Riq IV</speaker><p>: All right, calm down! We have his Summer as a hostage. Obviously, I get her. You guys play Rick, Laser, Scissors for the Morty.</p></sp>
 
 <sp><speaker>Zeta Alpha Rick</speaker><p>: W-W-What the hell is that?</p></sp>
 
-<sp><speaker who="Rick">Quantum Rick</speaker><p>: Payback.</p></sp>
+<sp><speaker>Quantum Rick</speaker><p>: Payback.</p></sp>
 
 <sp><speaker>Council of Ricks</speaker><p>: [ Screaming ]</p></sp>
 
 <sp><speaker>Summer</speaker><p>: Grandpa Rick!</p></sp>
 
-<sp><speaker who="Rick">Quantum Rick</speaker><p>: rips off his uniform and shakes his hair to standard Rick hair, becoming Rick</p></sp>
+<sp><speaker>Quantum Rick</speaker><p>: rips off his uniform and shakes his hair to standard Rick hair, becoming Rick</p></sp>
 
 <sp><speaker>Rick</speaker><p>: Duh!</p></sp>
 
