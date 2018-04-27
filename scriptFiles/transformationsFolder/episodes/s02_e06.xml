@@ -1,4 +1,4 @@
-</TEI><?xml-model href="../../ODD/out/RickandMortyODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/RickandMortyODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../ODD/out/RickandMortyODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
     <teiHeader>
@@ -17,7 +17,7 @@
             <sourceDesc>
                 <bibl>
                     <title>The Ricks Must Be Crazy</title>
-                    <date when="2015-"/>
+                    <date when="2015"/>
                 </bibl>
             </sourceDesc>
         </fileDesc>
@@ -36,7 +36,7 @@ There's pros and cons to [Burps] every alternate timeline fun facts about this o
 It's got giant, telepathic spiders, 11 9/11s, and the best ice cream in the multiverse! 
 Shut up! We go get some ice cream, mother[bleep]! 
 [Engine sputters] 
-Oh, great. 
+Oh, great.
 mortyOh, boy. W-what's wrong, Rick? Is it the quantum carburetor or something?
 rick"Quantum carburetor"? Jesus, Morty. You can't just add a [burps]-- Sci-Fi word to a car word and hope it means something. 
 Huh, looks like something's wrong with the microverse battery. 

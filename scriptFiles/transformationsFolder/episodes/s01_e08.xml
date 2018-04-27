@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<script>
+<?xml-model href="../../ODD/out/RickandMortyODD.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/RickandMortyODD.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Rixty Minutes</title>
+    <author>Justin Roiland</author>
+    <editor>A. Hall</editor>
+   </titleStmt>
+   <publicationStmt>
+    <p>Digital edition hosted on <ref target="http://rickandmorty.newtfire.org"
+     >http://rickandmorty.newtfire.org</ref> and GitHub: <ref
+      target="https://github.com/dorothealint/Rick-and-Morty"
+      >https://github.com/dorothealint/Rick-and-Morty</ref></p>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>
+     <title>Rixty Minutes</title>
+     <date when="2015"/>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+   <p>Some small changes to the original transcriptions were made including fixed spelling errors and adding names and scene cuts.</p>
+  </encodingDesc>
+ </teiHeader>
+<text>
+ <body>
 <stage>Int. Smith Residence. The Smith Family and Rick are sitting in the living room watching TV.</stage>
 
 <sp><speaker>Bachelor (on TV)</speaker><p> Cynthia...</p></sp>
@@ -76,7 +103,7 @@
 
 <sp><speaker>Rick</speaker><p> All right, Jerry, when you're right, you're right. Now I'm hooked.</p></sp>
 
-Int. Smith Residence. The Smith Family and Rick are sitting in the living room watching TV.
+<stage>Int. Smith Residence. The Smith Family and Rick are sitting in the living room watching TV.</stage>
 
 <sp><speaker>Announcer (on TV)</speaker><p> Coming up next on "Shmloo's the Shmloss", Shmlony has a nightmare.</p></sp>
 
@@ -90,7 +117,7 @@ Int. Smith Residence. The Smith Family and Rick are sitting in the living room w
 
 <sp><speaker>Jerry</speaker><p> <stage>sighs</stage> Rick, would you please go back to me on David Letterman?</p></sp>
 
-<sp><speaker>Rick <stage>flipping through the channels</stage></speaker><p> Infinity's a big number, Jerry. I don't remember the channel.</p></sp>
+<sp><speaker>Rick</speaker><stage>flipping through the channels</stage><p> Infinity's a big number, Jerry. I don't remember the channel.</p></sp>
 
 <sp><speaker>Beth</speaker><p> Go back, go back!</p></sp>
 
@@ -106,7 +133,7 @@ Int. Smith Residence. The Smith Family and Rick are sitting in the living room w
 
 <sp><speaker>Beth</speaker><p> How is this possible?</p></sp>
 
-<sp><speaker>Rick</speaker><p> Infinite time lines, infinite possibilities. Including a time line where Jerry's a movie star. Look, you guys are getting excited about the wrong aspect of this device. Ju-- Wa-- Look at this. <stage>changes channel</stage></p></sp>
+<sp><speaker>Rick</speaker><p> Infinite timelines, infinite possibilities. Including a time line where Jerry's a movie star. Look, you guys are getting excited about the wrong aspect of this device. Ju-- Wa-- Look at this. <stage>changes channel</stage></p></sp>
 
 <sp><speaker>Host in Trenchcoat (on TV)</speaker><p> And now, another Quick Mystery.</p></sp>
 
@@ -134,11 +161,13 @@ Int. Smith Residence. The Smith Family and Rick are sitting in the living room w
 
 <sp><speaker>Rick</speaker><p> Now who wants to watch random, crazy TV shows from different dimensions a-a-and then who wants to narcissistically obsess about their alternate self?</p></sp>
 
-<sp><speaker>Beth, Summer, and Jerry <stage>all at once</stage></speaker><p> Narcissism. The narcisstic stuff. I want to obsess about myself.</p></sp>
+<sp><speaker>Beth, Summer, and Jerry [all at once]</speaker><p> Narcissism. The narcisstic stuff. I want to obsess about myself.</p></sp>
 
 <sp><speaker>Rick</speaker><p> <stage>sighs] Here. [stands, pulling an ocular device from his coat] These scan your retinas, and let you view parallel time lines through genetically matching versions of your eyes. [throws the device into the kitchen</stage> Go fetch!</p></sp>
 
-<stage>Jerry, Summer, and Beth run to the kitchen] Beth and Summer [at the same time</stage>Yes! This is so cool! Ladies First!
+<stage>Jerry, Summer, and Beth run to the kitchen</stage>
+  
+<sp><speaker>Beth and Summer [at the same time]</speaker> <p>Yes! This is so cool! Ladies First!</p></sp>
 
 <sp><speaker>Rick</speaker><p> I'm proud of you, Morty.</p></sp>
 
@@ -146,72 +175,50 @@ Int. Smith Residence. The Smith Family and Rick are sitting in the living room w
 
 <sp><speaker>Ants-In-My-Eyes Johnson (on TV)</speaker><p> I'm Ants-In-My-Eyes Johnson, Here at Ants-in-My-Eyes Johnson's Electronics. I mean, there's so many ants in my eyes! And there's so many TVs, microwaves, radios I think, I can't-- I'm not 100% sure what we have here in stock, because I can't see anything. Our prices, I hope, aren't too low! Check out this refrigerator! Only $200! What about this microwave? Only $100! That's fair! I'm Ants-in-My-Eyes Johnson! Everything's black, I can't see a thing! <stage>set on fire</stage> And also I can't feel anything either-- did I mention that? But that's not as catchy as having ants in your eyes. So that always goes, you know, off by the wayside. I can't feel. It's a very rare disease. All my-- All my nerves, they don't allow for the sensation of touch. So I never know what's going on. Am I standing? Sitting? I don't know.</p></sp>
 
-Int. Smith Residence. Jerry, Beth, and Summer are in the kitchen with the Ocular Device.
+<stage>Int. Smith Residence. Jerry, Beth, and Summer are in the kitchen with the Ocular Device.</stage>
 
 <sp><speaker>Beth</speaker><p> Are we sure we want to do this? Look at our own alternate lives?</p></sp>
 
-Jerry
+<sp><speaker>Jerry</speaker><p>You're right. Maybe we should just play Yahtzee--</p></sp>
+  
+<stage>[grabs the device and turns switch]</stage>
 
- You're right. Maybe we should just play Yahtzee--
-<stage>grabs the device] Give me those! [turns switch</stage>
+<sp><speaker>Beth</speaker><p>What do you see?</p></sp>
+  
+<sp><speaker>Jerry</speaker><p>Whiteness... Pure whiteness.</p></sp>
+  
+<sp><speaker>Johnny Depp (on Device)</speaker><p>You're my best friend, Jerry Smith. I love doing cocaine with you.</p></sp>
+  
+<sp><speaker>Jerry</speaker><p>Whoa! I love doing cocaine with you too, Johnny Depp!</p></sp>
+ 
+<sp><speaker>Beth</speaker><p><stage>sighs, taking the device</stage> Haven't we spent enough time on you? <stage>turns switch</stage> I'm performing surgery... but not on a horse, on a human!</p></sp>
 
-Beth
-
- What do you see?
-Jerry
-
- Whiteness... Pure whiteness.
-Johnny Depp (on Device)
-
- You're my best friend, Jerry Smith. I love doing cocaine with you.
-Jerry
-
- Whoa! I love doing cocaine with you too, Johnny Depp!
-Beth
-
- <stage>sighs, taking the device</stage> Haven't we spent enough time on you?
-<stage>turns switch</stage> I'm performing surgery... but not on a horse, on a human!
-
-Jerry
-
- That's great, Beth! You always wanted to be a real surgeon.
-Beth <stage>taking off device</stage>
-
- I am a real surgeon.
-Jerry
-
- Ahh, uh-- Summer's turn! <stage>giving Summer the device</stage>
-Summer
-
- Finally! I don't see anything.
-Beth
-
- Well, you should select a different timeline, I mean, if your father and I achieved our dreams, there's a chance you weren't even born-- That came out wrong, that came out very wrong.
-Summer
-
- Fine, I'll find a world where you bothered to have me. <stage>turns switch a few times</stage> We're playing Yahtzee.
-Beth
-
- Yahtzee's fun. We love Yahtzee.
-Jerry
-
- It's a fun game for fun families! Hey, could I get those goggles back for a second?
-Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.
-
-Announcer (on TV)
-
+<sp><speaker>Jerry</speaker>
+<p> That's great, Beth! You always wanted to be a real surgeon.</p></sp>
+<sp><speaker>Beth</speaker>
+ <p><stage>taking off device</stage>I am a real surgeon.</p></sp>
+<sp><speaker>Jerry</speaker>
+<p> Ahh, uh-- Summer's turn! <stage>giving Summer the device</stage></p></sp>
+<sp><speaker>Summer</speaker>
+<p> Finally! I don't see anything.</p></sp>
+<sp><speaker>Beth</speaker>
+<p> Well, you should select a different timeline, I mean, if your father and I achieved our dreams, there's a chance you weren't even born-- That came out wrong, that came out very wrong.</p></sp>
+<sp><speaker>Summer</speaker>
+<p> Fine, I'll find a world where you bothered to have me. <stage>turns switch a few times</stage> We're playing Yahtzee.</p></sp>
+<sp><speaker>Beth</speaker>
+<p> Yahtzee's fun. We love Yahtzee.</p></sp>
+<sp><speaker>Jerry</speaker>
+<p> It's a fun game for fun families! Hey, could I get those goggles back for a second?</p></sp>
+<sp><speaker>Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.</speaker>
+<p><sp><speaker>Announcer (on TV)</speaker></p></sp>
  It's a 45 horsepower with anti-lock brakes, and it's the official car of Mr.
-Sneezy 3D. It's the brand-new Sneezy XL. The horn when you honk it makes a sneeze noise. <stage>car sneezes</stage> It's polite, it's right, and it's Sneezy Deezy Mc Deluxe.
-
-Mr. Sneezy 3D (on TV)
-
+<sp><speaker>Sneezy 3D. It's the brand-new Sneezy XL. The horn when you honk it makes a sneeze noise. <stage>car sneezes</stage> It's polite, it's right, and it's Sneezy Deezy Mc Deluxe.</speaker>
+<p><sp><speaker>Mr. Sneezy 3D (on TV)</speaker></p></sp>
  Oh, I'm Mr. Sneezy! Achoo!
-Morty
-
- Huh, seems like TV from other dimensions has a somewhat looser feel to it.
-Rick
-
- Yeah, it's got an almost improvisational tone. <stage>changes channel</stage>
+<sp><speaker>Morty</speaker>
+<p> Huh, seems like TV from other dimensions has a somewhat looser feel to it.</p></sp>
+<sp><speaker>Rick</speaker>
+<p> Yeah, it's got an almost improvisational tone. <stage>changes channel</stage></p></sp>
 Announcer (on TV)
 
 <sp><speaker> It's in theaters now! Coming this summer</speaker><p> Two brothers. In a van. And then a meteor hit. And they ran as fast as they could, from giant cat monsters. And then a giant tornado came and that's when things got knocked into 12th gear.</p></sp>
@@ -266,10 +273,10 @@ Jerry
 Summer
 
  Yeah, thank you guys so much. It's a real treat to be raised by parents that force themselves to be together instead of being happy.
-Rick <stage>walking to the cupboard</stage>
-
- Hey, do we have any wafer cookies? <stage>grabs cookie box. eats cooke and starts walking away] Mm! [stops and looks back at Jerry, Summer and Beth] Oh, boy. Looks like you guys have been checking out alternate lives and realizing you don't have it as good, huh? That's too bad. You know, me and Morty are having a blast, We just discovered a show called "Ball Fondlers". I mean, I don't want to rub it in or anything, but you guys clearly backed the wrong conceptual horse. [eats another cookie, walking offscreen</stage>
-Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.
+ 
+<sp><speaker>Rick</speaker><stage>walking to the cupboard</stage> <p>Hey, do we have any wafer cookies?</p> <stage>grabs cookie box. eats cooke and starts walking away</stage> <p>Mm!</p> <stage>stops and looks back at Jerry, Summer and Beth</stage> <p>Oh, boy. Looks like you guys have been checking out alternate lives and realizing you don't have it as good, huh? That's too bad. You know, me and Morty are having a blast, We just discovered a show called "Ball Fondlers". I mean, I don't want to rub it in or anything, but you guys clearly backed the wrong conceptual horse. </p><stage>eats another cookie, walking offscreen</stage></sp>
+  
+<stage>Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.</stage>
 
 Rick
 
@@ -302,13 +309,12 @@ Summer
  Yeah, and I'm not pregnant. I'm gonna have better judgment than you guys had at my age.
 I'm gonna... move to the southwest and-- I don't know, do something with turquoise. <stage>walks offscreen</stage>
 
-Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.
+<stage>Int. Smith Residence. Rick and Morty are sitting in the living room watching TV.</stage>
 
 <stage>Summer storms off, passing in from of the TV</stage>
 
-Announcer (on TV)
+<sp><speaker>Announcer (on TV)</speaker><p>Saturday Night Live! Starring a piece of toast! Two guys, with handle-bar mustaches! A man painted silver who makes robot noises! Garmanarnar! Three s-- uh uh, uh, uh, I'll get back to that one A hole in the wall, where the men can see it all and returning, for his 25th consecutive year: Bobby Moynihan!</p></sp>
 
-<sp><speaker> Saturday Night Live! Starring a piece of toast! Two guys, with handle-bar mustaches! A man painted silver who makes robot noises! Garmanarnar! Three s-- uh uh, uh, uh, I'll get back to that one A hole in the wall, where the men can see it all and returning, for his 25th consecutive year</speaker><p> Bobby Moynihan!</p></sp>
 Rick
 
  Interesting fun fact, uh, Moynihan and piece of toast hate each other. Apparently they've got some real creative differences. <stage>changes channel</stage>
@@ -706,5 +712,8 @@ Rick <stage>angry</stage>
 Jerry
 
  Ooh! Family vacation!
-</script>
+
 <trailer><name>60 Minutes</name><date>1968</date></trailer>
+ </body>
+</text>
+</TEI>
