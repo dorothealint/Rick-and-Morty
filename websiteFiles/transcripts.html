@@ -3,7 +3,9 @@
     <head>
         <title>Transcripts</title>
         <link rel="stylesheet" type="text/css" href="styling.css" />
+        <link rel="stylesheet" type="text/css" href="transcriptsJS.css" />
         <link rel="stylesheet" type="text/css" href="transcripts.css" />
+        <script type="text/javascript" src="transcripts.js"></script>
     </head>
     <body>
         <!--#include virtual="SSIbanner.html" -->
@@ -13,6 +15,7 @@
                 <br />
                 <h2>TRANSCRIPTS</h2>
                 <p>These are the transcribed episodes we used to pull our data from. We've made them available on the site solely for the purposes of providing a better and more expansive amount of transcription than those already available (via the Rick and Morty Wiki Page).</p>
+                <p>Right now, the toggle box highlights stage directions and speakers. In the future, we'd like to parse through the transcript files and seperate each individual speaker so we can highlight lines by speaker.</p>
                 <div class="flexbox">
                     <div class="season-1">
                    <div class="zoom"><div class="box" id="s1e1"><p>Episode 1</p></div></div>
@@ -66,7 +69,15 @@
                 </div>
                 <br />
                 <br />
-            
+                <div class="toggle">
+                    <fieldset>
+                        <legend style="color:limegreen;">Click to Highlight</legend>
+                        <input type="checkbox" id="speakerToggle" />
+                        <span class="persNameToggle">Speakers</span>
+                        <input type="checkbox" id="stageToggle" />
+                        <span class="locToggle">Stage Directions</span>
+                    </fieldset>
+                </div>
             <div class="transcript-viewer">
                 <div class="transcript-body">
                     <h3>Season 1 Episode 2: Lawnmower Dog</h3>
