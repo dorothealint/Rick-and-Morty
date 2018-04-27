@@ -8,42 +8,36 @@
     
     <xsl:template match="/">
         <html>
-            <h2>Table of Contents</h2>
-            <xsl:apply-templates select="$transcripts/*" mode="toc"/>
+            <h2>Rick and Morty Transcripts</h2>
+          <xsl:apply-templates select="$transcripts//teiHeader" mode="toc"/>
+
             <xsl:apply-templates select="$transcripts/*"/>
+            
         </html>
     </xsl:template>
-    <xsl:template match="document" mode="toc">
-        <div id="{$transcripts//tokenize(base-uri(), '/')[last()]}">
-            <button class="button" id="opt0">
-                <xsl:apply-templates select="descendant::teiHeader/fileDesc/sourceDesc/bible/title" mode="toc"/>
+    <xsl:template match="teiHeader" mode="toc">
+        <div id="EN{tokenize(base-uri(), '/')[last()]}">
+            <button class="button" id="opt{substring-before(tokenize(base-uri(), '/')[last()], '.')}">
+                <xsl:apply-templates select="descendant::fileDesc/sourceDesc/bibl/title" mode="toc"/>
             </button>
         </div>
     </xsl:template>
-    <xsl:template match="document">
-        <div class="main" id="aboutopt0" style="background-color: black;">
-            <xsl:apply-templates select="descendant::body"/>
+    <xsl:template match="TEI">
+        <div class="main" id="aboutopt{substring-before(tokenize(base-uri(), '/')[last()], '.')}">
+            <xsl:apply-templates select="descendant::teiHeader"/>
+            <xsl:apply-templates select="descendant::text"/>
         </div>
     </xsl:template>
-    <xsl:template match="titleStmt">
-        <xsl:apply-templates select="descendant::teiHeader/fileDesc/sourceDesc/bibl/title"/>
-        <xsl:apply-templates select="descendant::teiHeader/fileDesc/titleStmt/author"/>
-        <xsl:apply-templates select="descendant::teiHeader/fileDesc/titleStmt/editor"/>
-        <xsl:apply-templates select="descendant::teiHeader/fileDesc/sourceDesc/bibl/date"/>
-    </xsl:template>
-    <xsl:template match="teiHeader/fileDesc/sourceDesc/bibl/title">
+   
+    <xsl:template match="teiHeader">
         <h2>
-            <xsl:apply-templates/>
+            <xsl:apply-templates select="fileDesc/sourceDesc/bibl/title"/>
         </h2>
-    </xsl:template>
-    <xsl:template match="teiHeader/fileDesc/titleStmt/author">
-        <p>Author(s): <xsl:apply-templates/></p>
-    </xsl:template>
-    <xsl:template match="teiHeader/fileDesc/titleStmt/editor">
-        <p>Transcriber/Editor(s): <xsl:apply-templates/></p>
-    </xsl:template>
-    <xsl:template match="teiHeader/fileDesc/sourceDesc/bibl/date">
-        <p>Date Aired: <xsl:apply-templates/></p>
+        <h3>Author(s): <xsl:apply-templates select="fileDesc/titleStmt/author"/></h3>
+        <h3>Transcriber/Editor(s): <xsl:apply-templates select="fileDesc/titleStmt/editor"/></h3>
+        <h3>Date Aired: <xsl:apply-templates select="fileDesc/sourceDesc/bibl/date/@when"/></h3>
+        <h3>Reference Name(s): <xsl:apply-templates select="parent::TEI/text/body/trailer/name"/></h3>
+        <h3>Reference Date(s): <xsl:apply-templates select="parent::TEI/text/body/trailer/date"/></h3>
     </xsl:template>
     <xsl:template match="stage">
         <p span="stage">
