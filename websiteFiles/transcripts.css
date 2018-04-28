@@ -29,35 +29,32 @@ div.body.h2 {flex:1;}
     align-items: flex-start;
     flex-wrap: wrap;
 }
-.season-1 div.box{
+.season-1 button{
     background: radial-gradient(limegreen, green, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border: 2px solid green;
 }
-.season-2 div.box{
-    background: radial-gradient(lavender, purple, black);
+.season-2 button{
+    background: radial-gradient(purple, purple, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border: 2px solid purple;
 }
-.season-3 div.box{
-    background: radial-gradient(pink, red, black);
+.season-3 button{
+    background: radial-gradient(red, red, black);
     padding: 0px 0px 0px 8px;
     flex-wrap: wrap;
-}
-div#s1e0{
-    background-color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px white;
-}
-div#s2e0{
-    background-color: black;
-    -webkit-text-fill-color: white;
-    -webkit-text-stroke: 1px white;
-}
-div#s3e0{
-    background-color: black;
-    -webkit-text-fill-color: limegreen;
-    -webkit-text-stroke: 1px limegreen;
+    color: white;
+    font-size: 18px;
+    padding: 7px;
+    border: 2px solid red;
 }
 p{
     -webkit-text-fill-color: limegreen;
@@ -75,13 +72,13 @@ p{
     transition: transform .2s;
 }
 .zoom:hover {
-    transform: scale(1.5);
+    transform: scale(1.2);
     }
 h3{
-    font-family: 'Indie Flower', cursive;
-    color: limegreen;
-    line-height: 100%;
-    font-size: 45px;
+    font-family: 'Courier', monospace;
+    color:  #00b0c7;
+    line-height: 80%;
+    font-size: 20px;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
 }
